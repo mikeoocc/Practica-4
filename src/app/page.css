@@ -1,0 +1,30 @@
+.contenedorP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("/rickmorty.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo {
+    color: white;
+}
+
+.contenedorCharacters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 45px 15px; 
+    padding-bottom: 20px;
+    border-radius: 5px;
+    height: 40vw;
+    overflow: scroll;
+}
+
